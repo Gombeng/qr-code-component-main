@@ -1,5 +1,5 @@
 import "./App.css";
-import QRCodeImage from "/image-qr-code.png";
+import QRCodeImage from "./assets/image-qr-code.png";
 
 function App() {
   return (
