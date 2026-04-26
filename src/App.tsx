@@ -1,12 +1,17 @@
 import "./App.css";
-import QRCodeImage from "./assets/image-qr-code.png";
+import QRCodeImage from "/image-qr-code.png";
 
 function App() {
   return (
-    <div className="container">
-      <div className="card">
-        <img src={QRCodeImage} alt="QR Code Image" className="qr-image" />
-        <div className="container-desc">
+    <main className="container">
+      <figure className="card">
+        <img
+          alt="QR Code to Frontend Mentor"
+          className="qr-image"
+          src={QRCodeImage}
+        />
+
+        <figcaption className="container-desc">
           <h1 className="title">
             Improve your front-end skills by building projects
           </h1>
@@ -14,9 +19,9 @@ function App() {
             Scan the QR code to visit Frontend Mentor and take your coding
             skills to the next level
           </p>
-        </div>
-      </div>
-    </div>
+        </figcaption>
+      </figure>
+    </main>
   );
 }
 
